@@ -6,6 +6,7 @@ module.exports = {
   entry: {
     main: commonPaths.entryPath,
   },
+  devtool: 'source-map',
   module: {
     rules: [
       {
